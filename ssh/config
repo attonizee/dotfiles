@@ -1,0 +1,69 @@
+Host 192.168.0.9 
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.3 
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.8 
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.10
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.11
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.12
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.13
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.14
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.17
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host 192.168.0.16
+KexAlgorithms +diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+HostKeyAlgorithms = +ssh-rsa
+PubkeyAcceptedAlgorithms = +ssh-rsa
+Ciphers +3des-cbc
+
+Host wiki-poligon-app
+  HostName 10.180.40.10
+  Port 2200
+  User adm-axe
+
+Host wiki-poligon-db
+  HostName 10.180.40.11
+  Port 22
+  User adm-axe
