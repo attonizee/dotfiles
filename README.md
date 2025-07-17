@@ -117,17 +117,6 @@ dotfiles/
 - **PATH**: Includes Rancher Desktop binaries
 - **Editor**: Configuration ready for vim/nvim setup
 
-## 🔐 SSH Configuration
-
-### Features
-- Legacy algorithm support for older systems
-- Custom configurations for local network hosts
-- Support for various cipher suites and key exchange algorithms
-
-### Supported Hosts
-- Multiple local network hosts (192.168.0.x range)
-- Compatible with older SSH implementations
-
 ## 📦 Installation
 
 ### Prerequisites
@@ -167,15 +156,6 @@ dotfiles/
    source ~/.zshrc
    ```
 
-4. **SSH Setup**:
-   ```bash
-   # Backup existing SSH config
-   mv ~/.ssh/config ~/.ssh/config.backup
-   
-   # Create symlink
-   ln -s ~/dotfiles/ssh/config ~/.ssh/config
-   ```
-
 ## 🔧 Customization
 
 ### Adding New Plugins to Neovim
@@ -203,10 +183,6 @@ dotfiles/
 - Verify Oh My Zsh installation
 - Check if Powerlevel10k is properly installed
 - Run `p10k configure` to reconfigure the theme
-
-### SSH Issues
-- Verify SSH key permissions (`chmod 600 ~/.ssh/id_rsa`)
-- Test connections with `ssh -v <host>`
 
 ## 📝 Notes
 
