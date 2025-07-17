@@ -1,6 +1,6 @@
 # Dotfiles Configuration
 
-This repository contains my personal dotfiles configuration for Neovim, Zsh, and SSH.
+This repository contains my personal dotfiles configuration for Neovim, Zsh.
 
 ## 📁 Structure
 
