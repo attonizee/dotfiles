@@ -21,8 +21,7 @@ dotfiles/
 │       └── packer_compiled.lua # Packer compiled plugins
 ├── zsh/
 │   └── .zshrc              # Zsh configuration
-└── ssh/
-    └── config              # SSH configuration
+
 ```
 
 ## 🚀 Neovim Configuration
